@@ -65,7 +65,7 @@ public class Policy {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        // User input
         System.out.print("Please enter the Policy Number: ");
         String policyNumber = scanner.nextLine();
 
@@ -95,7 +95,7 @@ public class Policy {
 
         double bmi = policy.calculateBMI();
         double price = policy.calculatePrice();
-
+        // Program output
         System.out.println("\nPolicy Number: " + policy.getPolicyNumber());
         System.out.println("Provider Name: " + policy.providerName);
         System.out.println("Policyholder’s First Name: " + policy.firstName);
