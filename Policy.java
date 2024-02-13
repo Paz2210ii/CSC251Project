@@ -107,5 +107,6 @@ public class Policy {
         System.out.println("Policyholder’s BMI: " + String.format("%.2f", bmi));
         System.out.printf("Policy Price: $%.2f\n", price);
 
+
     }
 }
